@@ -4,19 +4,16 @@
     <div class="container">
       <router-view/>
     </div>
-    <footer-bar></footer-bar>
   </div>
 </template>
 
 <script>
-import TopNav from './components/TopNav'
-import Footer from './components/Footer'
+import topNav from './components/topNav'
 export default {
   components: {
-    'top-nav': TopNav,
-    'footer-bar': Footer
+    topNav,
   },
-  name: 'App'
+  name: 'App',
 }
 </script>
 

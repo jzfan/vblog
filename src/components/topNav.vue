@@ -9,7 +9,7 @@
     <div class="navbar-menu">
       <div class="navbar-start">
         <router-link to="/" class="navbar-item" >Index</router-link>
-        <router-link to="/hi" class="navbar-item" >Hello</router-link>
+        <a class="navbar-item" @click='$store.commit("blogCreating")'>creat</a>
       </div>
     </div>
   </div>
